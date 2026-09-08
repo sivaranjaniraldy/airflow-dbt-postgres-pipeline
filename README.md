@@ -48,7 +48,7 @@ docker-compose up -d
 
    ![Airflow DAG success](screenshots/airflow_dag.png)
    ![dbt test results](screenshots/dbt_test.png)
-   ![Database tables](screenshots/dbever.png)
+   ![Database tables](screenshots/DBever.png)
 
 ## Problems I hit and how I fixed them
 
@@ -73,11 +73,3 @@ Task logs failed to load in the UI with a 403 Forbidden error, caused by the web
 ├── docker-compose.yaml
 └── Dockerfile
 
-# Save the file.
-
-
-## Commit and push:
-
-git add .
-git commit -m "Add README with architecture, setup instructions, and debugging writeup"
-git push
